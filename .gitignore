@@ -1,0 +1,5 @@
+/.vagrant
+/ssh
+/rootkey.csv
+/setenv.bat
+/dummy.box
