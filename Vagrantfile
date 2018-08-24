@@ -13,6 +13,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   
   # Being asked for details for SMB details
   config.vm.synced_folder ".", "/vagrant", disabled: true  
+  
+
 
   # Specify configuration of AWS provider
   config.vm.provider 'aws' do |aws, override|
